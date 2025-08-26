@@ -10,8 +10,8 @@ const AboutPage = () => {
       <div className="max-w-6xl grid md:grid-cols-2 gap-12 items-center">
         {/* Left side - Text */}
         <div>
-          <h2 className="text-4xl font-bold mb-6">
-            About <span className="text-cyan-400">Me</span>
+          <h2 className="text-4xl font-bold mb-6 text-teal-400">
+            About <span className="text-teal-400">Me</span>
           </h2>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -37,9 +37,9 @@ const AboutPage = () => {
         {/* Right side - Image */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="/profile.jpg" // <-- replace with your image path
+            src="\public\WhatsApp Image 2024-06-22 at 8.04.02 AM.jpeg" 
             alt="Akhshat Sharma"
-            className="w-72 h-72 object-cover rounded-2xl shadow-lg border-2 border-cyan-400"
+            className="w-72 h-72 object-cover rounded-2xl shadow-lg border-2 border-teal-400"
           />
         </div>
       </div>

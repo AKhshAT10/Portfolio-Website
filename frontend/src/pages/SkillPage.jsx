@@ -1,23 +1,21 @@
 import SkillCard from "../components/SkillCard";
-import Header from "../components/Header";
+
 
 const SkillsPage = () => {
   return (
     <section
       id="skills"
       className="min-h-screen bg-[#0a192f] text-white px-8 py-20"
-    >
-       <Header/> 
-        
+    >   
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold">
-          My <span className="text-cyan-400">Skill Arsenal</span>
+          My <span className="text-teal-400">Skill Arsenal</span>
         </h2>
-        <div className="w-24 h-1 bg-cyan-400 mx-auto mt-2 rounded"></div>
+        <div className="w-24 h-1 bg-teal-400 mx-auto mt-2 rounded"></div>
       </div>
 
       {/* Grid Layout */}
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto ">
         <SkillCard
           title="Languages & Databases"
           skills={[
