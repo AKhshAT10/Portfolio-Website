@@ -1,6 +1,8 @@
 // src/pages/CompetitiveProgramming.jsx
-import { FaStar, FaChevronRight } from "react-icons/fa";
+import {  FaChevronRight } from "react-icons/fa";
 import Header from "../components/Header";
+import LCimage from '../assets/LeetCode_Logo_black_with_text.svg';
+import CDimage from '../assets/CodeChef_Logo.svg.png';
 
 const AchievementsPage = () => {
   const cpProfiles = [
@@ -8,13 +10,13 @@ const AchievementsPage = () => {
     {
       platform: "CodeChef",
       username: "soft_stork_10",
-      image: "/public/CodeChef_Logo.svg.png",
+      image: {CDimage},
       link: "https://www.codechef.com/users/soft_stork_10",
     },
     {
       platform: "LeetCode",
       username: "AkhshatSharma7",
-      image:"/public/LeetCode_Logo_black_with_text.svg",
+      image:{LCimage},
       link: "https://leetcode.com/u/AkshatSharma7/",
     },
   ];

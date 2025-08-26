@@ -1,4 +1,5 @@
 import Header from '../components/Header.jsx';
+import myImage from '../assets/WhatsApp Image 2024-06-22 at 8.04.02 AM.jpeg'
 
 const AboutPage = () => {
   return (
@@ -37,7 +38,7 @@ const AboutPage = () => {
         {/* Right side - Image */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="\public\WhatsApp Image 2024-06-22 at 8.04.02 AM.jpeg" 
+            src={myImage}
             alt="Akhshat Sharma"
             className="w-72 h-72 object-cover rounded-2xl shadow-lg border-2 border-teal-400"
           />
