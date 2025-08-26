@@ -1,5 +1,5 @@
 import Header from '../components/Header.jsx';
-import myImage from '../assets/WhatsApp Image 2024-06-22 at 8.04.02 AM.jpeg'
+import myImage from '../assets/WhatsApp Image 2024-06-22 at 8.04.02 AM.jpeg';
 
 const AboutPage = () => {
   return (

@@ -1,8 +1,7 @@
-// src/pages/CompetitiveProgramming.jsx
+
 import {  FaChevronRight } from "react-icons/fa";
 import Header from "../components/Header";
-import LCimage from '../assets/LeetCode_Logo_black_with_text.svg';
-import CDimage from '../assets/CodeChef_Logo.svg.png';
+
 
 const AchievementsPage = () => {
   const cpProfiles = [
@@ -10,13 +9,11 @@ const AchievementsPage = () => {
     {
       platform: "CodeChef",
       username: "soft_stork_10",
-      image: {CDimage},
       link: "https://www.codechef.com/users/soft_stork_10",
     },
     {
       platform: "LeetCode",
       username: "AkhshatSharma7",
-      image:{LCimage},
       link: "https://leetcode.com/u/AkshatSharma7/",
     },
   ];
@@ -35,11 +32,6 @@ const AchievementsPage = () => {
           {cpProfiles.map((profile, index) => (
             <li key={index} className="flex items-center justify-between">
               <span className="flex items-center gap-3">
-                 <img
-                  src={profile.image}
-                  alt={profile.platform}
-                  className="w-6 h-6 object-contain"
-                />
                 <span className="font-semibold text-white">{profile.platform}</span>
                 <span className="text-gray-400">({profile.username})</span>
               </span>
