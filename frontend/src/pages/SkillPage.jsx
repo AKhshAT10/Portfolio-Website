@@ -44,7 +44,7 @@ const SkillsPage = () => {
           skills={[
             "Git , GitHub",
             "VSCode , IntelliJ IDEA",
-            "Render , Netlify",
+            "Render , Netlify , Vercel , Github Pages",
           ]}
         />
       </div>
